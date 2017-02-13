@@ -1,0 +1,11 @@
+D:\WEB\Selenium\OddsGG\OddGG_MainPage_Tests\bin\Debug\OddGG_MainPage_Tests.dll
+D:\WEB\Selenium\OddsGG\OddGG_MainPage_Tests\bin\Debug\OddGG_MainPage_Tests.pdb
+D:\WEB\Selenium\OddsGG\OddGG_MainPage_Tests\bin\Debug\OddsGG.dll
+D:\WEB\Selenium\OddsGG\OddGG_MainPage_Tests\bin\Debug\WebDriver.dll
+D:\WEB\Selenium\OddsGG\OddGG_MainPage_Tests\bin\Debug\WebDriver.Support.dll
+D:\WEB\Selenium\OddsGG\OddGG_MainPage_Tests\bin\Debug\OddsGG.pdb
+D:\WEB\Selenium\OddsGG\OddGG_MainPage_Tests\bin\Debug\WebDriver.xml
+D:\WEB\Selenium\OddsGG\OddGG_MainPage_Tests\bin\Debug\WebDriver.Support.xml
+D:\WEB\Selenium\OddsGG\OddGG_MainPage_Tests\obj\Debug\OddsGGTests.csprojResolveAssemblyReference.cache
+D:\WEB\Selenium\OddsGG\OddGG_MainPage_Tests\obj\Debug\OddGG_MainPage_Tests.dll
+D:\WEB\Selenium\OddsGG\OddGG_MainPage_Tests\obj\Debug\OddGG_MainPage_Tests.pdb

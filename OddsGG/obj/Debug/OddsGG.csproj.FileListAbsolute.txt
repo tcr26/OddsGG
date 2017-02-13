@@ -1,0 +1,9 @@
+D:\WEB\Selenium\OddsGG\OddsGG\bin\Debug\OddsGG.dll
+D:\WEB\Selenium\OddsGG\OddsGG\bin\Debug\OddsGG.pdb
+D:\WEB\Selenium\OddsGG\OddsGG\bin\Debug\WebDriver.dll
+D:\WEB\Selenium\OddsGG\OddsGG\bin\Debug\WebDriver.Support.dll
+D:\WEB\Selenium\OddsGG\OddsGG\bin\Debug\WebDriver.xml
+D:\WEB\Selenium\OddsGG\OddsGG\bin\Debug\WebDriver.Support.xml
+D:\WEB\Selenium\OddsGG\OddsGG\obj\Debug\OddsGG.csprojResolveAssemblyReference.cache
+D:\WEB\Selenium\OddsGG\OddsGG\obj\Debug\OddsGG.dll
+D:\WEB\Selenium\OddsGG\OddsGG\obj\Debug\OddsGG.pdb
