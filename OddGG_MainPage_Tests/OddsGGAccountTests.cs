@@ -322,17 +322,46 @@ namespace OddGG_Account_Tests
 
             Wait.Until(ExpectedConditions.ElementIsVisible(By.Id("edit")));
 
+            Account.EditProfileCompanyNameField.Clear();
             Account.EditProfileCompanyNameField.SendKeys("Crow Inc.");
+
+            Account.EditProfilePositionField.Clear();
             Account.EditProfilePositionField.SendKeys("Unknown");
+
+            Account.EditProfileContactNameField.Clear();
             Account.EditProfileContactNameField.SendKeys("Unknown");
+
             Account.EditProfileCountryChange("Bulgaria");
+
+            Account.EditProfileCityField.Clear();
             Account.EditProfileCityField.SendKeys("Varna");
+
+            Account.EditProfilePhoneField.Clear();
             Account.EditProfilePhoneField.SendKeys("+35912345678");
+
+            Account.EditProfileUsagePurposeField.Clear();
             Account.EditProfileUsagePurposeField.SendKeys("Unknown");
+
+            Account.EditProfileWebsiteField.Clear();
             Account.EditProfileWebsiteField.SendKeys("www.asd.bg");
+
+            Account.EditProfileSkypeUsername.Clear();
             Account.EditProfileSkypeUsername.SendKeys("Unknown");
 
             Account.EditProfileUpdateProfileButton.Click();
+
+            Wait.Until(ExpectedConditions.ElementIsVisible(By.Id("my-account-api-key")));
+            Wait.Until(ExpectedConditions.ElementToBeClickable(By.Id("my-account-api-key")));
+
+            Account.AccountNavigationMenuApiKeyButton.Click();
+
+            Wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("span.text-bold")));
+            Wait.Until(ExpectedConditions.ElementIsVisible(By.Id("api-key-value")));
+
+            string expectedMessage = "Your API key is:";
+            var actualMessage = Driver.FindElement(By.CssSelector("h2.over-title.margin-bottom-0 span.text-bold")).Text;
+
+            Assert.AreEqual(expectedMessage, actualMessage);
         }
 
         [TestMethod]

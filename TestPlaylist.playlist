@@ -1,0 +1,1 @@
+<Playlist Version="1.0"><Add Test="OddGG_MainPage_Tests.OddsGGMainPageTests.RegistrationFormEmptyCompanyFieldInput" /><Add Test="OddGG_MainPage_Tests.OddsGGMainPageTests.RegistrationFormCompanyFillTheInput" /><Add Test="OddGG_MainPage_Tests.OddsGGMainPageTests.RegistrationFormTooShortCompanyFieldInput" /></Playlist>
