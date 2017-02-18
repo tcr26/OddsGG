@@ -9,7 +9,6 @@ namespace OddsGG_LoginForm
 {
     public class OddsGGLoginForm
     {
-        public string url = "https://odds.gg/";
 
         [FindsBy(How = How.ClassName, Using = "modal-content")]
         public IWebElement LoginForm { get; set; }

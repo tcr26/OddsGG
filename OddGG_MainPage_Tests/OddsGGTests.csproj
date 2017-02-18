@@ -61,7 +61,9 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="OddsGGAccountTests.cs" />
+    <Compile Include="OddsGGAccountApiKeyMenuTests.cs" />
+    <Compile Include="OddsGGAccountMenuEditProfileTabTests.cs" />
+    <Compile Include="OddsGGBaseClass.cs" />
     <Compile Include="OddsGGLoginFormTests.cs" />
     <Compile Include="OddsGGMainPageTests.cs" />
     <Compile Include="OddsGGRegstrationFormTestscs.cs" />

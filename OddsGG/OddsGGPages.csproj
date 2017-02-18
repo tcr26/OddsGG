@@ -50,7 +50,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OddsGGAccount.cs" />
+    <Compile Include="OddsGGAccountApiKeyMenu.cs" />
+    <Compile Include="OddsGGAccountMenuEditProfileTab.cs" />
     <Compile Include="OddsGGLoginForm.cs" />
     <Compile Include="OddSGGMainPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -7,39 +7,26 @@ using OpenQA.Selenium.Support.PageObjects;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OddsGG_MainPage;
 using OddsGG_RegistrationForm;
+using OddsGG_BaseClass;
 
 namespace OddGG_RegistrationForm_Tests
 {
     [TestClass]
-    public class OddsGGRegistrationFormTests
+    public class OddsGGRegistrationFormTests : OddsGGBaseClass
     {
 
         public OddsGGRegistrationFormTests()
         {
-            Driver = new FirefoxDriver();
-            Wait = new WebDriverWait(Driver, TimeSpan.FromSeconds(20));
-            MainPage = new OddsGGMainPage();
             RegistrationForm = new OddsGGRegistrationForm();
         }
-
-        public IWebDriver Driver { get; set; }
-        public WebDriverWait Wait { get; set; }
-        public OddsGGMainPage MainPage { get; set; }
+        
         public OddsGGRegistrationForm RegistrationForm { get; set; }
-
-        [TestCleanup]
-        public void CleanUp()
-        {
-            Driver.Quit();
-        }
 
         [TestInitialize]
         public void TestInit()
         {
             PageFactory.InitElements(Driver, MainPage);
             PageFactory.InitElements(Driver, RegistrationForm);
-            Driver.Navigate().GoToUrl(MainPage.url);
-            Driver.Manage().Window.Maximize();
         }
 
         [TestMethod]

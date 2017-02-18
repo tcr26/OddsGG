@@ -7,39 +7,26 @@ using OpenQA.Selenium.Support.PageObjects;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OddsGG_MainPage;
 using OddsGG_RegistrationForm;
+using OddsGG_BaseClass;
 
 namespace OddGG_MainPage_Tests
 {
     [TestClass]
-    public class OddsGGMainPageTests
+    public class OddsGGMainPageTests : OddsGGBaseClass
     {
 
         public OddsGGMainPageTests()
         {
-            Driver = new FirefoxDriver();
-            Wait = new WebDriverWait(Driver, TimeSpan.FromSeconds(20));
-            MainPage = new OddsGGMainPage();
             RegistrationForm = new OddsGGRegistrationForm();
         }
 
-        public IWebDriver Driver { get; set; }
-        public WebDriverWait Wait { get; set; }
-        public OddsGGMainPage MainPage { get; set; }
         public OddsGGRegistrationForm RegistrationForm { get; set; }
-
-        [TestCleanup]
-        public void CleanUp()
-        {
-            Driver.Dispose();
-        }
 
         [TestInitialize]
         public void TestInit()
         {
             PageFactory.InitElements(Driver, MainPage);
             PageFactory.InitElements(Driver, RegistrationForm);
-            Driver.Navigate().GoToUrl(MainPage.url);
-            Driver.Manage().Window.Maximize();
         }
 
         [TestMethod]
@@ -49,9 +36,9 @@ namespace OddGG_MainPage_Tests
             Wait.Until(ExpectedConditions.ElementToBeClickable(By.ClassName("logo-txt")));
 
             string expectedPageTitle = "ODDS.GG";
-            var currentPageTitle = Driver.Title;
+            var actualPageTitle = Driver.Title;
 
-            Assert.AreEqual(expectedPageTitle, currentPageTitle);
+            Assert.AreEqual(expectedPageTitle, actualPageTitle);
         }
 
         [TestMethod]
@@ -72,7 +59,9 @@ namespace OddGG_MainPage_Tests
             string expectedLoginFormText = "ODDS.GG";
 
             MainPage.ClickOnApiDocsButton();
+
             Wait.Until(ExpectedConditions.ElementIsVisible(By.Id("login-modal")));
+
             var actualLoginFormText = Driver.FindElement(By.ClassName("logo-txt")).Text;
 
             Assert.AreEqual(expectedLoginFormText, actualLoginFormText);
@@ -86,6 +75,7 @@ namespace OddGG_MainPage_Tests
             MainPage.ClickOnSignUpButton();
 
             Wait.Until(ExpectedConditions.ElementIsVisible(By.Id("registration-modal")));
+
             var actualSignupFormText = Driver.FindElement(By.ClassName("logo-txt")).Text;
 
             Assert.AreEqual(exptectedSignUpButtonText, actualSignupFormText);
@@ -98,8 +88,8 @@ namespace OddGG_MainPage_Tests
 
             MainPage.ClickOnLoginButton();
 
-            MainPage.ClickOnApiDocsButton();
             Wait.Until(ExpectedConditions.ElementIsVisible(By.Id("login-modal")));
+
             var actualLoginFormText = Driver.FindElement(By.ClassName("logo-txt")).Text;
 
             Assert.AreEqual(expectedLoginFormText, actualLoginFormText);
