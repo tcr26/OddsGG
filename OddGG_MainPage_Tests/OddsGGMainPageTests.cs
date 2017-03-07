@@ -29,6 +29,12 @@ namespace OddGG_MainPage_Tests
             PageFactory.InitElements(Driver, RegistrationForm);
         }
 
+        [TestCleanup]
+        public void CleanUp()
+        {
+            Driver.Dispose();
+        }
+
         [TestMethod]
         public void ClickOnOddsGGLogo()
         {

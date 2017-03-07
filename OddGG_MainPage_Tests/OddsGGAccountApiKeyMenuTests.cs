@@ -32,6 +32,12 @@ namespace OddGG_MainPage_Tests
             PageFactory.InitElements(Driver, AccountApiKeyMenu);
         }
 
+        [TestCleanup]
+        public void CleanUp()
+        {
+            Driver.Dispose();
+        }
+
         [TestMethod]
         public void ProvideMoreInformationToGetApiKey()
         {

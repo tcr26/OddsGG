@@ -20,12 +20,6 @@ namespace OddsGG_BaseClass
             Driver.Navigate().GoToUrl(MainPage.url);
         }
 
-        [TestCleanup]
-        public void CleanUp()
-        {
-            Driver.Dispose();
-        }
-
         protected IWebDriver Driver { get; set; }
         protected WebDriverWait Wait { get; set; }
         protected OddsGGMainPage MainPage { get; set; }

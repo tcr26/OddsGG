@@ -34,6 +34,12 @@ namespace OddGG_MainPage_Tests
             PageFactory.InitElements(Driver, AccountMenuProfileTab);
         }
 
+        [TestCleanup]
+        public void CleanUp()
+        {
+            Driver.Dispose();
+        }
+
         [TestMethod]
         public void ClickOnEditProfileTabInAccountMenu()
         {

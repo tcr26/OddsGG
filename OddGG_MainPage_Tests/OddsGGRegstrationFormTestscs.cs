@@ -19,7 +19,7 @@ namespace OddGG_RegistrationForm_Tests
         {
             RegistrationForm = new OddsGGRegistrationForm();
         }
-        
+
         public OddsGGRegistrationForm RegistrationForm { get; set; }
 
         [TestInitialize]
@@ -27,6 +27,12 @@ namespace OddGG_RegistrationForm_Tests
         {
             PageFactory.InitElements(Driver, MainPage);
             PageFactory.InitElements(Driver, RegistrationForm);
+        }
+
+        [TestCleanup]
+        public void CleanUp()
+        {
+            Driver.Dispose();
         }
 
         [TestMethod]

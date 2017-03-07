@@ -29,6 +29,12 @@ namespace OddGG_LoginForm_Tests
             PageFactory.InitElements(Driver, LoginForm);
         }
 
+        [TestCleanup]
+        public void CleanUp()
+        {
+            Driver.Dispose();
+        }
+
         [TestMethod]
         public void OpenLoginForm()
         {

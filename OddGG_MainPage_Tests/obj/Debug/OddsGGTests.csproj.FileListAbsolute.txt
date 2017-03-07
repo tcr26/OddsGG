@@ -9,3 +9,14 @@ D:\WEB\Selenium\OddsGG\OddGG_MainPage_Tests\bin\Debug\WebDriver.Support.xml
 D:\WEB\Selenium\OddsGG\OddGG_MainPage_Tests\obj\Debug\OddsGGTests.csprojResolveAssemblyReference.cache
 D:\WEB\Selenium\OddsGG\OddGG_MainPage_Tests\obj\Debug\OddGG_MainPage_Tests.dll
 D:\WEB\Selenium\OddsGG\OddGG_MainPage_Tests\obj\Debug\OddGG_MainPage_Tests.pdb
+C:\Users\inZt1nct\Documents\GitHub\OddsGG\OddGG_MainPage_Tests\bin\Debug\OddGG_MainPage_Tests.dll
+C:\Users\inZt1nct\Documents\GitHub\OddsGG\OddGG_MainPage_Tests\bin\Debug\OddGG_MainPage_Tests.pdb
+C:\Users\inZt1nct\Documents\GitHub\OddsGG\OddGG_MainPage_Tests\bin\Debug\OddsGG.dll
+C:\Users\inZt1nct\Documents\GitHub\OddsGG\OddGG_MainPage_Tests\bin\Debug\WebDriver.dll
+C:\Users\inZt1nct\Documents\GitHub\OddsGG\OddGG_MainPage_Tests\bin\Debug\WebDriver.Support.dll
+C:\Users\inZt1nct\Documents\GitHub\OddsGG\OddGG_MainPage_Tests\bin\Debug\OddsGG.pdb
+C:\Users\inZt1nct\Documents\GitHub\OddsGG\OddGG_MainPage_Tests\bin\Debug\WebDriver.xml
+C:\Users\inZt1nct\Documents\GitHub\OddsGG\OddGG_MainPage_Tests\bin\Debug\WebDriver.Support.xml
+C:\Users\inZt1nct\Documents\GitHub\OddsGG\OddGG_MainPage_Tests\obj\Debug\OddsGGTests.csprojResolveAssemblyReference.cache
+C:\Users\inZt1nct\Documents\GitHub\OddsGG\OddGG_MainPage_Tests\obj\Debug\OddGG_MainPage_Tests.dll
+C:\Users\inZt1nct\Documents\GitHub\OddsGG\OddGG_MainPage_Tests\obj\Debug\OddGG_MainPage_Tests.pdb
