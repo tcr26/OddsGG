@@ -7,3 +7,12 @@ D:\WEB\Selenium\OddsGG\OddsGG\bin\Debug\WebDriver.Support.xml
 D:\WEB\Selenium\OddsGG\OddsGG\obj\Debug\OddsGGPages.csprojResolveAssemblyReference.cache
 D:\WEB\Selenium\OddsGG\OddsGG\obj\Debug\OddsGG.dll
 D:\WEB\Selenium\OddsGG\OddsGG\obj\Debug\OddsGG.pdb
+C:\Users\inZt1nct\Documents\GitHub\OddsGG\OddsGG\bin\Debug\OddsGG.dll
+C:\Users\inZt1nct\Documents\GitHub\OddsGG\OddsGG\bin\Debug\OddsGG.pdb
+C:\Users\inZt1nct\Documents\GitHub\OddsGG\OddsGG\bin\Debug\WebDriver.dll
+C:\Users\inZt1nct\Documents\GitHub\OddsGG\OddsGG\bin\Debug\WebDriver.Support.dll
+C:\Users\inZt1nct\Documents\GitHub\OddsGG\OddsGG\bin\Debug\WebDriver.xml
+C:\Users\inZt1nct\Documents\GitHub\OddsGG\OddsGG\bin\Debug\WebDriver.Support.xml
+C:\Users\inZt1nct\Documents\GitHub\OddsGG\OddsGG\obj\Debug\OddsGGPages.csprojResolveAssemblyReference.cache
+C:\Users\inZt1nct\Documents\GitHub\OddsGG\OddsGG\obj\Debug\OddsGG.dll
+C:\Users\inZt1nct\Documents\GitHub\OddsGG\OddsGG\obj\Debug\OddsGG.pdb
